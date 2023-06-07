@@ -399,7 +399,11 @@ img{
 		align-items: center;
 		padding-bottom: 20px;
 		position: relative;
+	}
+	.body-form-item-name ,.body-form-item-tel ,.body-form-item-email{
 		width: 300px;
+		line-height: 32px;
+		margin-bottom: 16px;
 	}
 }
 .footer{
