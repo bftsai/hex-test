@@ -389,6 +389,19 @@ img{
 		margin-bottom: 10px;
 	}
 }
+@media (max-width: 375px) {
+	.body-form-item-suggestion{
+		margin-bottom: 10px;
+		width: 300px;
+	}
+	.body-form-item{
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 20px;
+		position: relative;
+		width: 300px;
+	}
+}
 .footer{
 	position: relative;
 	height: 120px;
