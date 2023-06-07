@@ -389,10 +389,10 @@ img{
 		margin-bottom: 10px;
 	}
 }
-@media (max-width: 271px) {
+@media (max-width: 300px) {
 	.body-form-item-suggestion{
 		margin-bottom: 10px;
-		width: 300px;
+		width: 80%;
 	}
 	.body-form-item{
 		flex-direction: column;
@@ -438,7 +438,7 @@ img{
 .footer p a:hover{
 	color: #911b52;
 }
-@media (max-width: 271px) {
+@media (max-width: 300px) {
 	.footer{
 		height: auto;
 		display: flex;
