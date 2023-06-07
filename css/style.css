@@ -401,7 +401,7 @@ img{
 		position: relative;
 	}
 	.body-form-item-name ,.body-form-item-tel ,.body-form-item-email{
-		width: 300px;
+		width: 80%;
 		line-height: 32px;
 		margin-bottom: 16px;
 	}
