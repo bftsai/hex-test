@@ -199,6 +199,15 @@ img{
 		padding-bottom: 16px;
 	}
 }
+@media (max-width: 390px) {
+	.header-menu-item a{
+		width: 390px;
+		text-align: center;
+	}
+	.header .header-menu .header-menu-item a:hover{
+		font-size: 20px;
+	}
+}
 .body .body-content{
 	display: flex;
 	justify-content: space-between;
