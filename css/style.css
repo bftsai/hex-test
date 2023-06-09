@@ -392,7 +392,7 @@ img{
 @media (max-width: 390px) {
 	.body-form-item-suggestion{
 		margin-bottom: 10px;
-		width: 80%;
+		width: 90%;
 	}
 	.body-form-item{
 		flex-direction: column;
@@ -401,7 +401,7 @@ img{
 		position: relative;
 	}
 	.body-form-item-name ,.body-form-item-tel ,.body-form-item-email{
-		width: 80%;
+		width: 90%;
 		line-height: 32px;
 		margin-bottom: 16px;
 	}
