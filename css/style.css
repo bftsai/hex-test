@@ -326,6 +326,25 @@ img{
 		margin-left: 2.5%;
 	}
 }
+@media (max-width: 390px) {
+	.body h3{
+		font-size: 20px;
+	}
+	.body-compare{
+		width: 95%;
+	}
+	.body-compare th{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.body-compare td{
+		padding-left: 3px;
+		font-size: 12px;
+		line-height: 36px;
+		color: #333333;
+		border-bottom: 1px solid #dddddd;
+	}
+}
 .body-form{
 	height: 485px;
 	margin-top: 61px;
