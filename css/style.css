@@ -385,9 +385,10 @@ img{
 	}
 	.body-form-item{
 		flex-direction: column;
+		justify-content: space-around;
 		align-items: center;
 		position: relative;
-		width: 90%;
+		width: 80%;
 	}
 	.body-form-item-suggestion{
 		box-sizing: border-box;
@@ -398,7 +399,7 @@ img{
 }
 @media (max-width: 390px) {
 	.body-form-item{
-		width: 98%;
+		width: 80%;
 	}
 }
 .footer{
