@@ -386,7 +386,6 @@ img{
 	.body-form-item{
 		flex-direction: column;
 		align-items: center;
-		padding-bottom: 20px;
 		position: relative;
 		width: 90%;
 	}
@@ -399,10 +398,7 @@ img{
 }
 @media (max-width: 390px) {
 	.body-form-item{
-		
-	}
-	.body-form-item-name ,.body-form-item-tel ,.body-form-item-email{
-		line-height: 32px;
+		width: 98%;
 	}
 }
 .footer{
