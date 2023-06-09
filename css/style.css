@@ -382,24 +382,24 @@ img{
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
+		padding-bottom: 10px;
 	}
 	.body-form-item{
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		position: relative;
-		width: 80%;
+		width: 100%;
+	}
+	.body-form-item li{
+		width: 95%;
 	}
 	.body-form-item-suggestion{
 		box-sizing: border-box;
+		width: 100%;
 	}
 	.body-form-item-name ,.body-form-item-tel ,.body-form-item-email{
 		line-height: 32px;
-	}
-}
-@media (max-width: 390px) {
-	.body-form-item{
-		width: 80%;
+		width: 97%;
 	}
 }
 .footer{
