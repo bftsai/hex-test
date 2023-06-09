@@ -72,20 +72,22 @@ img{
 	padding-top: 6px;
 	padding-bottom: 8px;
 }
-.header .header-sharelink .header-sharelink-fbicon{
-	width: 1.6%;
-	height: 1.6%;
+.header .header-sharelink .header-sharelink-fbicon a{
+	width: 16px;
+	height: 16px;
 	background: url(https://i.imgur.com/jcfM5e4.png) center center no-repeat;
+	display: block;
 	text-indent: 200%;
 	overflow: hidden;
 	white-space: nowrap;
 	padding-left: 1%;
 	padding-right: 1%;
 }
-.header .header-sharelink .header-sharelink-twicon{
-	width: 1.4%;
-	height: 1.4%;
+.header .header-sharelink .header-sharelink-twicon a{
+	width: 14px;
+	height: 14px;
 	background: url(https://i.imgur.com/p1D6UbW.png) center center no-repeat;
+	display: block;
 	text-indent: 200%;
 	overflow: hidden;
 	white-space: nowrap;
@@ -114,7 +116,17 @@ img{
 .header .header .header-sharelink a:hover{
 	cursor: pointer;
 }
-
+@media (max-width: 390px) {
+	.header-sharelink a{
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	.header .header-sharelink .header-sharelink-twicon a{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 6px;
+	}
+}
 .header .header-menu{
 	display: flex;
 	justify-content: flex-end;
