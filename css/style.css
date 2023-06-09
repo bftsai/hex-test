@@ -389,7 +389,7 @@ img{
 		margin-bottom: 10px;
 	}
 }
-@media (max-width: 320px) {
+@media (max-width: 390px) {
 	.body-form-item-suggestion{
 		margin-bottom: 10px;
 		width: 80%;
@@ -438,7 +438,7 @@ img{
 .footer p a:hover{
 	color: #911b52;
 }
-@media (max-width: 320px) {
+@media (max-width: 390px) {
 	.footer{
 		height: auto;
 		display: flex;
